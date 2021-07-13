@@ -45,8 +45,8 @@ h4 {
 }
 
 .container {
-    margin: -8px auto;
     width: 1141px;
+    margin: auto;
 }
 
 .header {
@@ -60,6 +60,7 @@ h4 {
     position: absolute;
     top: 21px;
     left: 0;
+    max-width: 100%;
 }
 
 .menu__item {
@@ -82,11 +83,6 @@ h4 {
     text-decoration: none;
 }
 
-.logo__pic {
-    width: 85px;
-    height: 36px;
-}
-
 .menu {
     position: absolute;
     top: 30px;
@@ -94,6 +90,8 @@ h4 {
 }
 
 .contacts {
+    display: block;
+    float: right;
     font-style: normal;
     position: relative;
     top: 19px;
@@ -191,8 +189,8 @@ h4 {
 }
 
 .tours__img {
-    min-height: 144px;
-    margin-bottom: 5px;
+    display: block;
+    max-width: 100%;
     position: relative;
 }
 
