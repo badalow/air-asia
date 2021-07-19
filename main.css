@@ -52,7 +52,9 @@ h4 {
 .header {
     height: 120px;
     position: relative;
-    margin-bottom: 76px;
+    margin-bottom: 77px;
+    margin-left: 142px;
+    width: 1141px;
 }
 
 .logo {
@@ -123,13 +125,12 @@ h4 {
 }
 
 .hero {
-    margin-bottom: 246px;
+    margin-bottom: 237px;
 }
 
 .hero__text-section {
     width: 515px;
     height: 333px;
-    margin-bottom: 246px;
 }
 
 .hero__title {
@@ -146,9 +147,9 @@ h4 {
 }
 
 .btn {
-    background: #fff;
+    background: transparent;
     border-radius: 35px;
-    padding: 18px 40px;
+    padding: 18px 29px;
     color: #F5170E;
     font-weight: bold;
     font-size: 14px;
@@ -160,7 +161,8 @@ h4 {
 
 .btn--color--red {
     background: #F5170E;
-    color: #fff
+    color: #fff;
+    border: transparent;
 }
 
 .btn:hover {
@@ -173,20 +175,31 @@ h4 {
     margin-bottom: 138px;
 }
 
+.tours__header {
+    display: block;
+}
+
+.tours__list {
+    align-items: middle;
+}
+
 .tours__title {
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 50px;
     display: inline-block;
+    margin-right: 12px;
 }
 
 .tours__item {
-    min-height: 470px;
     background: #fff;
     border-radius: 4px;
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 22px;
     width: 362px;
+    height: 455px;
+    position: relative;
+    top: 12px;
 }
 
 .tours__item:last-child {
@@ -200,55 +213,61 @@ h4 {
 }
 
 .tours__pic {
-    display: block;
+    display: inline;
     max-width: 100%;
 }
 
 .tours__content {
-    padding: 36px 30px;
+    padding: 31px 23px;
     color: #010001;
-    display: inline-block;
+    min-height: 305px;
 }
 
 .tours__subtitle {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 11px;
 }
 
 .tours__options {
-    display: inline-block;
-    vertical-align: top;
-    width: 115px;
-    margin-right: 21px;
+    vertical-align: middle;
+    width: 338px;
+    margin-bottom: 10px;
 }
 
 .tours__option {
     display: inline-block;
-    vertical-align: top;
-    width: 26px;
+    margin-right: 29px;
 }
 
 .tours .tours__options:last-child {
     margin-right: 0;
 }
 
+.tour__option-icon {
+    display: inline;
+    margin-top: 9px;
+    margin-right: 2px;
+}
+
 .tours__option-icon {
-    display: block;
+    display: inline-block;
     max-width: 100%;
+    vertical-align: middle;
 }
 
 .tours__option-description {
     font-size: 16px;
     color: #666666;
     display: inline-block;
-    position: absolute;
+    vertical-align: middle;
+    margin-bottom: 16px;
 }
 
 .tours__description {
     font-size: 14px;
     color: #303030;
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }
 
 .ads {
@@ -288,7 +307,7 @@ h4 {
     right: 0;
     bottom: 0;
     padding: 25px 30px;
-    min-height: 140px;
+    min-height: 449px;
 }
 
 .ad__date {
@@ -357,17 +376,18 @@ h4 {
 
 .about-us__img:before {
     content: "";
-    display: block;
-    max-width: 100%;
+    width: 490px;
+    height: 505px;
     background: url(./img/icons/gates.png) center center / cover no-repeat;
 }
 
 .about-us__content {
     background: url(./img/icons/mountains.png);
     padding: 70px 80px;
-    display: block;
-    max-width: 100%;
+    width: 785px;
+    height: 455px;
     margin-left: 355px;
+    margin-top: -405px;
 }
 
 .about-us__title {
