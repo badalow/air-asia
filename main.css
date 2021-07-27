@@ -20,7 +20,7 @@ a {
 }
 
 .main-page-wrapper {
-    background: url(./img/elefant.png) center top no-repeat, url(./img/men.png) right bottom 162px no-repeat;
+    background: url(./img/elefant.png) center top 150px no-repeat, url(./img/men.png) right bottom 162px no-repeat;
 }
 
 p {
@@ -163,7 +163,7 @@ h4 {
     background: #F5170E;
     color: #fff;
     border: transparent;
-    padding: 18px 29px;
+    padding: 18px 30px;
 }
 
 .btn--color--red__hero {
@@ -272,7 +272,7 @@ h4 {
 }
 
 .ads {
-    margin-bottom: 124px;
+    margin-bottom: 145px;
 }
 
 .ads__title {
@@ -307,8 +307,8 @@ h4 {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 25px 39px 26px 29px;
-    min-height: 167px;
+    padding: 14px 30px 0px 29px;
+    min-height: 155px;
 }
 
 .ad__date {
@@ -321,15 +321,15 @@ h4 {
     font-size: 24px;
     font-weight: bold;
     line-height: 36px;
-    margin-bottom: 5px;
 }
 
 .ad__option-description {
-    line-height: 21px;
+    line-height: 24px;
+    margin-bottom: 15px;
 }
 
 .ads__list {
-    margin-bottom: 55px;
+    margin-bottom: 53px;
 }
 
 .ads__item:last-child {
@@ -344,10 +344,11 @@ h4 {
 .paginator__list {
     display: inline-block;
     vertical-align: middle;
+    margin-left: 20px;
 }
 
 .paginator__display {
-    margin-right: 36px;
+    margin-right: 0px;
 }
 
 .paginator__item {
@@ -372,7 +373,7 @@ h4 {
 }
 
 .about-us {
-    margin-bottom: 50px;
+    margin-bottom: 49px;
 }
 
 .about-us__img {
@@ -387,18 +388,18 @@ h4 {
 
 .about-us__img:before {
     content: "";
-    width: 490px;
+    width: 489px;
     height: 505px;
     background: url(./img/icons/gates.png) center center / cover no-repeat;
 }
 
 .about-us__content {
     background: url(./img/icons/mountains.png);
-    padding: 70px 80px;
-    width: 785px;
+    padding: 68px 202px 0px 81px;
+    width: 784px;
     height: 455px;
-    margin-left: 355px;
-    margin-top: -405px;
+    margin-left: 354px;
+    margin-top: -408px;
 }
 
 .about-us__title {
@@ -412,6 +413,7 @@ h4 {
     color: #060606;
     font-size: 16px;
     margin-bottom: 43px;
+    line-height: 27px;
 }
 
 .footer-container__content {
@@ -421,12 +423,13 @@ h4 {
 .footer {
     height: 97px;
     position: relative;
+    margin-top: 31px;
 }
 
 .social-media {
     position: absolute;
-    top: 54px;
-    right: 300px;
+    top: 53px;
+    right: 252px;
     margin-top: -30px;
 }
 
