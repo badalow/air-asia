@@ -21,7 +21,7 @@ a {
 
 .main-page-wrapper {
     background: url(./img/elefant.png) center top no-repeat, url(./img/men.png) right bottom 162px no-repeat;
-    min-width: auto;
+    max-width: 100%;
 }
 
 p {
