@@ -48,20 +48,19 @@ h4 {
 .container {
     width: 1141px;
     margin: auto;
+    position: relative;
 }
 
 .header {
     height: 120px;
     position: relative;
     margin-bottom: 77px;
-    width: 1141px;
 }
 
 .logo {
     display: block;
     position: absolute;
     top: 24px;
-    left: 140px;
     max-width: 85px;
 }
 
@@ -93,7 +92,7 @@ h4 {
 .menu {
     position: absolute;
     top: 33px;
-    left: 304px;
+    left: 166px;
 }
 
 .contacts {
@@ -102,7 +101,6 @@ h4 {
     font-style: normal;
     position: relative;
     top: 22px;
-    left: 140px;
     text-align: right;
 }
 
@@ -431,6 +429,11 @@ h4 {
     height: 97px;
     position: relative;
     margin-top: 31px;
+}
+
+.footer-container {
+    position: relative;
+    width: 100%;
 }
 
 .social-media {
